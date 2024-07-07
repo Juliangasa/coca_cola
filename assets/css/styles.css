@@ -3,3 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    border: 1px solid red;
+    width: 100wh;
+    height: 100vh;
+}

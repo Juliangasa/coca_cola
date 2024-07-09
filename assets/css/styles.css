@@ -22,4 +22,14 @@ header{
 nav{
     background-color: white;
     border: 1px solid red;
+    display: flex;
 }
+.juli-main-menu{
+    border: 1px solid black;
+}
+.juli-main-menu > ul{
+    display: flex;
+    list-style: none;
+}
+
+

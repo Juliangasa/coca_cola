@@ -49,10 +49,23 @@ nav{
     border: 1px solid black;
     width: 509.2px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .juli-main-menu > ul{
     display: flex;
+    justify-content: center;
     list-style: none;
+    width: 100%;
+    height: 100%;
+}
+.juli-main-menu > ul > li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

@@ -23,6 +23,13 @@ nav{
     background-color: white;
     border: 1px solid red;
     display: flex;
+    justify-content: center;
+}
+.juli-main-nav-container{
+    border: 1px solid black;
+    display: flex;
+    width: 1280px;
+    height: 80px;
 }
 .juli-main-menu{
     border: 1px solid black;

@@ -31,6 +31,15 @@ nav{
     width: 1280px;
     height: 80px;
 }
+.juli-cc-logo{
+    width: 149px;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .juli-main-menu{
     border: 1px solid black;
 }

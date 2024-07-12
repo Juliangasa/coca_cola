@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
 }
 #juli-main{
@@ -99,6 +99,10 @@ nav{
     height: 1445.89px;
     margin-top: 120px;
     background-color: orange;
+}
+.juli-experience-container{
+    width: 1120px;
+    height: 560.29px;
 }
 
 

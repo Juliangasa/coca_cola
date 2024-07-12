@@ -84,10 +84,15 @@ nav{
     align-items: center;
     background-color: green;
 }
-.juli-hero-section > img{
-    border-radius: 15px;
+.juli-hero-imgs-box{
     width: 1306.9px;
     height: 616.69px;
+    background-color: blue;
+}
+.juli-hero-section > .juli-hero-imgs-box > img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
 }
 
 

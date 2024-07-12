@@ -104,6 +104,24 @@ nav{
     width: 1120px;
     height: 560.29px;
 }
+.juli-experience-imgs-box{
+    display: flex;
+}
+.juli-coke-img-box{
+    width: 640px;
+    height: 480.29px;
+    background-color: aqua;
+}
+.juli-coke-img-box > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.juli-coke-studio-box{
+    width: 640px;
+    height: 480.29px;
+    background-color: blueviolet;
+}
 
 
 

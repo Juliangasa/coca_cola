@@ -83,16 +83,23 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: green;
+    position: relative;
 }
 .juli-hero-imgs-box{
     width: 1306.9px;
     height: 616.69px;
     background-color: blue;
+    position: relative;
 }
 .juli-hero-section > .juli-hero-imgs-box > img{
     border-radius: 15px;
     width: 100%;
     height: 100%;
+}
+.juli-hero-section > .juli-hero-imgs-box > h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 .juli-central-section{
     width: 1120px;

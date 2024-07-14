@@ -102,6 +102,12 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.juli-hero-section > .juli-hero-imgs-box > p{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-70%, -70%);
+}
 .juli-central-section{
     width: 1120px;
     height: 1445.89px;

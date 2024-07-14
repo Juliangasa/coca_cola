@@ -151,6 +151,11 @@ nav{
     left: 52%;
     background-color: blueviolet;
 }
+.juli-coke-studio-box > button{
+    width: 327px;
+    height: 40px;
+    border-radius: 48px;
+}
 
 
 

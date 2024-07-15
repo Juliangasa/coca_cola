@@ -158,12 +158,20 @@ nav{
     border-radius: 48px;
 }
 .juli-about-container{
+    display: flex;
+    justify-content: space-between;
     width: 1120px;
     height: 517.6px;
     background-color: brown;
 }
 .juli-about-title{
     margin-top: 120px;
+}
+.juli-ac-img-box{
+    background-color: white;
+    width: 352px;
+    height: 467.6px;
+    border-radius: 15px;
 }
 
 

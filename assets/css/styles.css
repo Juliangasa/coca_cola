@@ -179,6 +179,42 @@ nav{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.juli-img-under-text-box{
+    padding: 40px;
+}
+.juli-ac-link-arrow-box{
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+.juli-ac-arrow-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.juli-ac-arrow-box{
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    transform: rotate(45deg);
+}
+.juli-ac-ar-box{
+    position: absolute;
+    top: -20%;
+    left: -90%;
+    width: 20px;
+    height: 8px;
+    border-bottom: 2px solid red;
+}
+
+
+
 
 
 

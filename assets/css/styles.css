@@ -260,6 +260,13 @@ footer{
     height: 615.6px;
     background-color: darkgoldenrod;
 }
+.juli-footer-icon-bttn-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    width: inherit;
+    height: auto;
+}
 .juli-footer-icon-box{
     width: 249px;
     height: 40px;
@@ -269,6 +276,9 @@ footer{
     width: 100%;
     height: 100%;
 }
+
+
+
 
 
 

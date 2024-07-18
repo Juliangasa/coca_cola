@@ -253,10 +253,17 @@ footer{
     background-color: blue;
 }
 .juli-footer-container{
+    padding-top: 72px;
+    padding-bottom: 96px;
     display: flex;
     width: 1152px;
     height: 615.6px;
     background-color: darkgoldenrod;
+}
+.juli-footer-icon-box{
+    width: 249px;
+    height: 40px;
+    background-color: white;
 }
 
 

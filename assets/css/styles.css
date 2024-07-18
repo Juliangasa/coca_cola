@@ -212,7 +212,18 @@ nav{
     height: 8px;
     border-bottom: 2px solid red;
 }
-
+.juli-footer-section{
+    width: 1120px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+.juli-footer-section{
+    display: flex;
+    justify-content: center;
+    width: 864px;
+    height: 288px;
+    background-color: cyan;
+}
 
 
 

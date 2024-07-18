@@ -263,7 +263,11 @@ footer{
 .juli-footer-icon-box{
     width: 249px;
     height: 40px;
-    background-color: white;
+    background-color: black;
+}
+.juli-footer-icon-box > img{
+    width: 100%;
+    height: 100%;
 }
 
 

@@ -276,6 +276,11 @@ footer{
     width: 100%;
     height: 100%;
 }
+.juli-footer-icon-bttn-box > button{
+    width: 154.74px;
+    height: 40px;
+    border-radius: 48px;
+}
 
 
 

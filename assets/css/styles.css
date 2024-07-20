@@ -356,6 +356,9 @@ footer{
     list-style: none;
 }
 .juli-social-media-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 288px;
     height: 196px;
     padding: 0px 16px;
@@ -382,6 +385,15 @@ footer{
 .juli-s-m-icon-box > img{
     width: 16px;
     height: 16px;
+}
+.juli-recite-me-button-box{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #D5D5D5;
 }
 
 

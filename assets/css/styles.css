@@ -258,12 +258,12 @@ footer{
     display: flex;
     width: 1152px;
     height: 615.6px;
-    background-color: darkgoldenrod;
+    background-color: black;
 }
 .juli-footer-icon-bttn-box{
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    background-color: black;
     width: inherit;
     height: auto;
 }
@@ -276,11 +276,21 @@ footer{
     width: 100%;
     height: 100%;
 }
+.juli-footer-icon-bttn-box{
+    background-color: red;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 48px;
+}
 .juli-footer-icon-bttn-box > button{
     width: 154.74px;
     height: 40px;
     border-radius: 48px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
 }
+
 
 
 

@@ -312,6 +312,7 @@ footer{
     background-color: darkgoldenrod;
 }
 .juli-about-box > h2{
+    margin-bottom: 24px;
     text-align: center;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
@@ -333,6 +334,7 @@ footer{
     list-style: none;
 }
 .juli-need-box > h2{
+    margin-bottom: 24px;
     text-align: center;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;

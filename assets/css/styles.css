@@ -292,6 +292,8 @@ footer{
     background-color: black;
 }
 .juli-ab-nd-tm-s-media-container{
+    display: flex;
+    justify-content: space-between;
     border-top: 1px solid white;
     background-color: darkolivegreen;
     width: 100%;
@@ -299,9 +301,8 @@ footer{
 }
 .juli-about-need-terms-container{
     display: flex;
-    justify-content: space-between;
     background-color: darkcyan;
-    width: 864px;
+    width: auto;
     height: 244px;
 }
 .juli-about-box{
@@ -319,11 +320,17 @@ footer{
     font-variation-settings:"wdth" 100;
     font-size: 10px;
 }
+.juli-about-box > ul{
+    list-style: none;
+}
 .juli-need-box{
     width: 216px;
     height: 196px;
     padding: 0px 16px;
     background-color: white;
+}
+.juli-need-box > ul{
+    list-style: none;
 }
 .juli-need-box > h2{
     text-align: center;
@@ -339,6 +346,25 @@ footer{
     height: 196px;
     padding: 0px 16px;
     background-color: darkgoldenrod;
+}
+.juli-terms-box > ul{
+    list-style: none;
+}
+.juli-social-media-box{
+    width: 288px;
+    height: 196px;
+    padding: 0px 16px;
+    background-color: brown;
+}
+.juli-social-media-bar{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.juli-social-media-bar > img{
+    width: 16px;
+    height: 16px;
 }
 
 

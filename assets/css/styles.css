@@ -306,6 +306,7 @@ footer{
     height: 244px;
 }
 .juli-about-box{
+    margin-bottom: 48px;
     margin-top: 48px;
     width: 216px;
     height: 196px;
@@ -337,6 +338,7 @@ footer{
     height: 196px;
     padding: 0px 16px;
     background-color: white;
+    margin-bottom: 48px;
 }
 .juli-need-box > ul{
     list-style: none;
@@ -358,6 +360,7 @@ footer{
     font-size: 10px;
 }
 .juli-terms-box{
+    margin-bottom: 48px;
     margin-top: 48px;
     width: 258.83px;
     height: 196px;

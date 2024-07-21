@@ -325,6 +325,12 @@ footer{
 .juli-about-box > ul{
     list-style: none;
 }
+.juli-about-box > ul > li{
+    margin-top: 16px;
+}
+.juli-about-box > ul > li:first-child{
+    margin-top: none;
+}
 .juli-need-box{
     margin-top: 48px;
     width: 216px;
@@ -334,6 +340,12 @@ footer{
 }
 .juli-need-box > ul{
     list-style: none;
+}
+.juli-need-box > ul > li{
+    margin-top: 16px;
+}
+.juli-need-box > ul > li:first-child{
+    margin-top: none;
 }
 .juli-need-box > h2{
     margin-bottom: 24px;
@@ -353,7 +365,14 @@ footer{
     background-color: darkgoldenrod;
 }
 .juli-terms-box > ul{
+    margin-top: 42px;
     list-style: none;
+}
+.juli-terms-box > ul >li{
+    margin-top: 16px;
+}
+.juli-terms-box > ul > li:first-child{
+    margin-top: none;
 }
 .juli-social-media-box{
     display: flex;

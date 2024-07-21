@@ -148,7 +148,7 @@ nav{
     border-radius: 15px;
     position: absolute;
     bottom: 2%;
-    left: 52%;
+    left: 51.5%;
     background-color: blueviolet;
     padding: 64px 80px;
 }
@@ -420,9 +420,21 @@ footer{
 }
 .juli-footer-text-box{
     border-top: 1px solid white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 48px;
+    width: 100%;
+    height: fit-content;
 }
 .juli-footer-text-box > p{
     color: white;
+    text-align: right;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    font-variation-settings:"wdth" 100;
 }
 
 

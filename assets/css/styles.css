@@ -129,11 +129,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100px;
+    width: 90px;
     height: 100%;
     background-color: grey;
 }
-.juli-swiper-bar-hero-section-box > .juli-swiper-bullets-container > .juli-swiper-bullet-box{
+.juli-swiper-bullet-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ nav{
     border: 1px solid black;
     border-radius: 50%;
 }
-.juli-swiper-bar-hero-section-box > .juli-swiper-bullets-container > .juli-swiper-bullet-box > div{
+.juli-swiper-bullet-box > div{
     width: 10px;
     height: 10px;
     background-color: black;
@@ -232,11 +232,27 @@ nav{
 }
 .juli-about-container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 1120px;
     height: 517.6px;
     background-color: brown;
     margin-top: 32px;
+}
+.juli-swiper-bar-about-container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+    height: 50px;
+    background-color: peru;
+}
+.juli-swiper-bullets-a-c-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 100%;
+    background-color: grey;
 }
 .juli-about-title{
     margin-top: 120px;
@@ -249,6 +265,13 @@ nav{
     font-variation-settings: "wdth" 100;
     font-size: 32px;
     text-align: center;
+}
+.juli-ac-img-big-box{
+    width: 100%;
+    height: fit-content;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
 }
 .juli-ac-img-box{
     background-color: white;

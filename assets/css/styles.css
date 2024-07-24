@@ -161,6 +161,15 @@ nav{
     font-variation-settings: "wdth" 100;
     font-size: 24px;
 }
+.juli-coke-studio-box > p{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 16px;
+    margin-top: 16px;
+}
 .juli-coke-studio-box > button{
     width: 327px;
     height: 40px;

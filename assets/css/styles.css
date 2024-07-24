@@ -149,13 +149,23 @@ nav{
     position: absolute;
     bottom: 2%;
     left: 51.5%;
-    background-color: blueviolet;
+    background-color: white;
     padding: 64px 80px;
+    border: 1px solid black;
+}
+.juli-coke-studio-box > h3{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 24px;
 }
 .juli-coke-studio-box > button{
     width: 327px;
     height: 40px;
     border-radius: 48px;
+    background-color: grey;
 }
 .juli-about-container{
     display: flex;

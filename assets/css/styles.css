@@ -321,14 +321,24 @@ nav{
 .juli-footer-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 1120px;
     height: 400px;
     background-color: yellowgreen;
 }
 .juli-footer-title-box{
-    margin-bottom: 32px;
+    margin-top: 32px;
+    width: fit-content;
+    height: fit-content;
+}
+.juli-footer-title-box > h2{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 32px;
 }
 .juli-brands-container{
     display: flex;
@@ -337,7 +347,6 @@ nav{
     width: 864px;
     height: 288px;
     background-color: cyan;
-    margin-bottom: 32px;
 }
 .juli-brands-box{
     display: flex;

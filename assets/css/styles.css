@@ -533,6 +533,9 @@ footer{
     height: 16px;
 }
 .juli-recite-me-button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: -24%;
     right: 10%;
@@ -540,6 +543,10 @@ footer{
     height: 32px;
     border-radius: 50%;
     background-color: #D5D5D5;
+}
+.juli-recite-me-button-box > img{
+    width: 13px;
+    height: 16px;
 }
 .juli-footer-text-box{
     border-top: 1px solid white;

@@ -6,12 +6,13 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #EEEEEE;
 }
 #juli-main{
     width: 100%;
     height: 100%;
     min-height: auto;
-    background-color: yellow;
+    background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,16 +95,17 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: #EEEEEE;
     position: relative;
 }
 .juli-hero-imgs-box{
     width: 1306.9px;
     height: 616.69px;
-    background-color: blue;
+    background-color: #EEEEEE;
     position: relative;
 }
 .juli-hero-section > .juli-hero-imgs-box > img{
+    position: relative;
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -139,9 +141,15 @@ nav{
     width: 280px;
     height: 40px;
     border-radius: 48px;
-    top: 80%;
-    left: 80%;
-    transform: translate(-80%, -80%);
+    top: 57.5%;
+    left: 50%;
+    background-color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 14px;
 }
 .juli-swiper-bar-hero-section-box{
     display: flex;
@@ -149,7 +157,7 @@ nav{
     align-items: center;
     width: 1440px;
     height: 50px;
-    background-color: peru;
+    background-color: #EEEEEE;
 }
 .juli-swiper-bar-hero-section-box > .juli-swiper-bullets-container{
     display: flex;
@@ -157,7 +165,7 @@ nav{
     align-items: center;
     width: 90px;
     height: 100%;
-    background-color: grey;
+    background-color: #EEEEEE;
 }
 .juli-swiper-bullet-box{
     display: flex;
@@ -178,7 +186,7 @@ nav{
     width: 1120px;
     margin-top: 120px;
     height: 1445.89px;
-    background-color: orange;
+    background-color: #EEEEEE;
 }
 .juli-central-section > h2{
     font-family: "Noto Sans", sans-serif;
@@ -196,17 +204,17 @@ nav{
     justify-content: flex-end;
     width: 1120px;
     height: 560.29px;
-    background-color: blueviolet;
+    background-color: #EEEEEE;
 }
 .juli-experience-imgs-box{
-    background-color: blue;
+    background-color: #EEEEEE;
     display: flex;
     position: relative;
 }
 .juli-coke-img-box{
     width: 640px;
     height: 480.29px;
-    background-color: aqua;
+    background-color: #EEEEEE;
 }
 .juli-coke-img-box > img{
     width: 100%;
@@ -261,7 +269,7 @@ nav{
     flex-direction: column;
     width: 1120px;
     height: 517.6px;
-    background-color: brown;
+    background-color: #EEEEEE;
     margin-top: 32px;
 }
 .juli-swiper-bar-about-container-box{
@@ -270,7 +278,7 @@ nav{
     align-items: center;
     width: 1120px;
     height: 50px;
-    background-color: peru;
+    background-color: #EEEEEE;
 }
 .juli-swiper-bullets-a-c-box{
     display: flex;
@@ -278,7 +286,7 @@ nav{
     align-items: center;
     width: 70px;
     height: 100%;
-    background-color: grey;
+    background-color: #EEEEEE;
 }
 .juli-about-title{
     margin-top: 120px;
@@ -295,7 +303,7 @@ nav{
 .juli-ac-img-big-box{
     width: 100%;
     height: fit-content;
-    background-color: greenyellow;
+    background-color: #EEEEEE;
     display: flex;
     justify-content: space-between;
 }
@@ -314,13 +322,30 @@ nav{
 .juli-img-under-text-box{
     padding: 40px;
 }
+.juli-img-under-text-box > h3{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
 .juli-ac-link-arrow-box{
-    border: 1px solid black;
+    margin-top: 32px;
     display: flex;
     gap: 20px;
     align-items: center;
     width: 100%;
     height: 30px;
+}
+.juli-ac-link-arrow-box > a{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 16px;
 }
 .juli-ac-arrow-container{
     position: relative;
@@ -332,8 +357,8 @@ nav{
 .juli-ac-arrow-box{
     width: 10px;
     height: 10px;
-    border-top: 2px solid red;
-    border-right: 2px solid red;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
     transform: rotate(45deg);
 }
 .juli-ac-ar-box{
@@ -342,7 +367,7 @@ nav{
     left: -90%;
     width: 20px;
     height: 8px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid black;
 }
 .juli-footer-section{
     display: flex;
@@ -351,7 +376,7 @@ nav{
     align-items: center;
     width: 1120px;
     height: 400px;
-    background-color: yellowgreen;
+    background-color: #EEEEEE;
 }
 .juli-footer-title-box{
     margin-top: 32px;
@@ -372,7 +397,7 @@ nav{
     align-items: center;
     width: 864px;
     height: 288px;
-    background-color: cyan;
+    background-color: #EEEEEE;
 }
 .juli-brands-box{
     display: flex;
@@ -398,7 +423,7 @@ nav{
     height: 192px;
 }
 .juli-footer-section-button-box{
-    background-color: orange;
+    background-color: #EEEEEE;
     display: flex;
     justify-content: center;
     width: 1120px;
@@ -424,7 +449,7 @@ footer{
     margin-top: 120px;
     width: 100%;
     height: 615.6px;
-    background-color: blue;
+    background-color: black;
 }
 .juli-footer-container{
     padding-top: 72px;
@@ -452,7 +477,7 @@ footer{
     height: 100%;
 }
 .juli-footer-icon-bttn-box{
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: fit-content;
     margin-bottom: 48px;
@@ -477,14 +502,14 @@ footer{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid white;
-    background-color: darkolivegreen;
+    background-color: black;
     width: 100%;
     height: 244px;
     margin-bottom: 48px;
 }
 .juli-about-need-terms-container{
     display: flex;
-    background-color: darkcyan;
+    background-color: black;
     width: auto;
     height: 244px;
 }
@@ -494,11 +519,11 @@ footer{
     width: 216px;
     height: 196px;
     padding: 0px 16px;
-    background-color: darkgoldenrod;
+    background-color: black;
 }
 .juli-about-box > h2{
     margin-bottom: 24px;
-    text-align: center;
+    text-align: left;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -522,7 +547,7 @@ footer{
     width: 216px;
     height: 196px;
     padding: 0px 16px;
-    background-color: yellow;
+    background-color: black;
     margin-bottom: 48px;
 }
 .juli-need-box > ul{
@@ -537,7 +562,7 @@ footer{
 }
 .juli-need-box > h2{
     margin-bottom: 24px;
-    text-align: center;
+    text-align: left;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -552,7 +577,7 @@ footer{
     width: 258.83px;
     height: 196px;
     padding: 0px 16px;
-    background-color: darkgoldenrod;
+    background-color: black;
 }
 .juli-terms-box > ul{
     margin-top: 42px;
@@ -572,7 +597,7 @@ footer{
     width: 288px;
     height: 196px;
     padding: 0px 16px;
-    background-color: brown;
+    background-color: black;
 }
 .juli-social-media-bar{
     margin-top: 48px;

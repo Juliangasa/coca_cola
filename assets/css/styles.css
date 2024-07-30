@@ -758,6 +758,7 @@ footer{
         height: fit-content;
     }
     .juli-brands-container{
+        margin-top: 32px;
         width: 100%;
         height: fit-content;
         display: flex;
@@ -767,11 +768,27 @@ footer{
         gap: 15px;
         background-color: yellow;
     }
+    .juli-swiper-bar-about-container-box{
+        width: 100%;
+    }
     .juli-brands-box{
         width: 80%;
         height: 80%;
     }
-
+    footer{
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-footer-container{
+        width: 90%;
+        height: fit-content;
+    }
+    .juli-ab-nd-tm-s-media-container{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 768px){
     #juli-main{

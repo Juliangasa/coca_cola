@@ -716,6 +716,29 @@ footer{
     .juli-hib-h3-p-button > button{
         width: 100%;
     }
+    .juli-experience-container{
+        display: flex;
+        align-items: center;
+        background-color: yellow;
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-experience-imgs-box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        height: fit-content;
+        background-color: red;
+    }
+    .juli-ac-img-big-box{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 768px){
     #juli-main{

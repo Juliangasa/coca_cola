@@ -761,7 +761,15 @@ footer{
         width: 100%;
         height: fit-content;
         display: flex;
+        align-items: center;
         flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: yellow;
+    }
+    .juli-brands-box{
+        width: 80%;
+        height: 80%;
     }
 
 }

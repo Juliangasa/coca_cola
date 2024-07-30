@@ -716,6 +716,10 @@ footer{
     .juli-hib-h3-p-button > button{
         width: 100%;
     }
+    .juli-central-section{
+        width: 100%;
+        height: fit-content;
+    }
     .juli-experience-container{
         display: flex;
         align-items: center;
@@ -731,18 +735,35 @@ footer{
         height: fit-content;
         background-color: red;
     }
+    .juli-about-container{
+        width: 100%;
+        height: fit-content;
+    }
     .juli-ac-img-big-box{
         background-color: yellow;
         width: 100%;
+        gap: 15px;
         height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
     .juli-ac-img-box{
         width: 80%;
         height: 80%;
     }
+    .juli-footer-section{
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-brands-container{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 768px){
     #juli-main{

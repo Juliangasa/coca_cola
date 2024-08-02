@@ -681,8 +681,12 @@ footer{
 }
 @media (max-width: 1160px){
     #juli-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100vw;
         height: fit-content;
+        background-color: aquamarine;
     }
     header, nav, .juli-main-nav-container{
         width: 100%;
@@ -717,23 +721,34 @@ footer{
         width: 100%;
     }
     .juli-central-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        height: fit-content;
+        height: min-content;
+        background-color: greenyellow;
     }
     .juli-experience-container{
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
         background-color: yellow;
-        width: 100%;
-        height: fit-content;
+        width: 90%;
+        height: min-content;
     }
     .juli-experience-imgs-box{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        width: 60%;
-        height: fit-content;
+        align-items: center;
+        width: 80%;
+        height: min-content;
         background-color: red;
+    }
+    .juli-coke-studio-box{
+        position: relative;
+        left: 0%;
+        bottom: 50px;
     }
     .juli-about-container{
         width: 100%;
@@ -792,17 +807,128 @@ footer{
 }
 @media (max-width: 768px){
     #juli-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100vw;
         height: fit-content;
+        background-color: aquamarine;
     }
     header, nav, .juli-main-nav-container{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .juli-hero-section, .juli-hero-imgs-box{
+    .juli-main-menu, .juli-user-button-box{
+        display: none;
+    }
+    .juli-hero-section{
         width: 100%;
         height: fit-content;
+    }
+    .juli-hero-imgs-box{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 60%;
+    }
+    .juli-hib-h3-p-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 90%;
+        height: fit-content;
+        top: 5%;
+        left: 5%;
+    }
+    .juli-hib-h3-p-button > button{
+        width: 100%;
+    }
+    .juli-central-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: min-content;
+        background-color: greenyellow;
+    }
+    .juli-experience-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: yellow;
+        width: 90%;
+        height: min-content;
+    }
+    .juli-experience-imgs-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        height: min-content;
+        background-color: red;
+    }
+    .juli-coke-studio-box{
+        position: relative;
+        left: 0%;
+        bottom: 50px;
+    }
+    .juli-about-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-ac-img-big-box{
+        background-color: yellow;
+        width: 100%;
+        gap: 15px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .juli-ac-img-box{
+        width: 80%;
+        height: 80%;
+    }
+    .juli-footer-section{
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-brands-container{
+        margin-top: 32px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: yellow;
+    }
+    .juli-swiper-bar-about-container-box{
+        width: 100%;
+    }
+    .juli-brands-box{
+        width: 80%;
+        height: 80%;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+    }
+    .juli-footer-container{
+        width: 90%;
+        height: fit-content;
+    }
+    .juli-ab-nd-tm-s-media-container{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

@@ -871,10 +871,20 @@ footer{
         height: min-content;
         background-color: red;
     }
+    .juli-coke-img-box{
+        width: 120%;
+    }
     .juli-coke-studio-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
         position: relative;
         left: 0%;
         bottom: 50px;
+    }
+    .juli-coke-studio-box > button{
+        width: 80%;
     }
     .juli-about-container{
         width: 100%;
@@ -897,6 +907,9 @@ footer{
     .juli-footer-section{
         width: 100%;
         height: fit-content;
+    }
+    .juli-footer-title-box > h2{
+        text-align: center;
     }
     .juli-brands-container{
         margin-top: 32px;

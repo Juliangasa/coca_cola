@@ -761,6 +761,9 @@ footer{
         width: 100%;
         height: fit-content;
     }
+    .juli-footer-section-button-box{
+        width: 100%;
+    }
     .juli-brands-container{
         margin-top: 32px;
         width: 100%;
